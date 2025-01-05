@@ -6,7 +6,7 @@ let nearParticles = [],
   middleParticles = [],
   farParticles = [];
 let particleSettings = {
-  count: 250,
+  count: 400,
   //count for wach layer. Increase/Decrease based on requirement
 };
 
@@ -31,7 +31,7 @@ function createsnowfall(particles, flag) {
     //create particles based on flag
     if (flag == "near") {
       //(area,alpha,vy)
-      particle = new Particle(4, 0.9, 0.3);
+      particle = new Particle(4, 0.7, 0.2);
     } else if (flag == "middle") {
       particle = new Particle(3, 0.5, 0.2);
     } else {
