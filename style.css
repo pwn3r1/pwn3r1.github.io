@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #000000;
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#103, #000);
 }
 .background{
     width: 430px;
